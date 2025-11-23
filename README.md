@@ -19,6 +19,10 @@
 ### Ubah file routes/web.php atau api.php
 - php artisan route:clear
 - php artisan route:cache    # (jika semua route bukan closure)
+### Kelola migration
+- php artisan make:model NamaModel -m
+- 
 ### Kelola seeder
+- php artisan make:seeder NamaSeeder
 - php artisan db:seed --class=UsersTableSeeder (jalankan seeder tertentu)
 - php artisan db:seed (jalankan semua seeder)
